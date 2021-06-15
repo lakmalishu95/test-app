@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>information</title>
+
+	<style>
+		
+		.table{
+			  font-family: arial, sans-serif;
+  				border-collapse: lapse;
+  				width: 100%;
+		}
+		td, th {
+  				border: 1px solid #dddddd;
+  				text-align: left;
+  				padding: 8px;
+}
+
+		
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">this is student information </h1>
+	<br>
+
+	<div class="table">
+		<table>
+			<tr>
+				<th>name</th>
+				<th>vilage</th>
+				<th>ID number</th>	
+			</tr>
+			<tr>
+			<td>	isuru</td>
+			<td>	anuradhapura</td>
+			<td>	95352115V</td>	
+			</tr>
+			
+		</table>
+		<p id="demo"></p>
+		<p id="demo1"></p>
+		
+	</div>
+	<script>
+		var x = 5;
+	var y = 6;
+	var z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
+
+
+		function age(x) {
+			for ( i = 0; i <x; i++) {
+				if (i%3==0) {
+					console.log('fixxa');
+				}
+				else if (i%5 == 0) {
+					console.log('vaaaxx');
+				}
+				else{
+					console.log('frfdf');
+				}
+			}
+				
+		}
+		document.getElementById("demo1").innerHTML =
+		"The value of z is: " + age(30);
+</script>
+</body>
+</html>
